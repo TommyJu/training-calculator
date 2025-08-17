@@ -7,7 +7,11 @@ def get_user_input():
     while True:
         try:
             weight = float(input("Type your weight in kg and press Enter: ").strip())
-            break
+            if weight <= 0 or weight > 300:
+                print("Invalid weight. Please enter a weight between 0 and 300 kg.")
+                continue
+            else:
+                break
         except ValueError:
             print("Invalid weight. Please enter a number.")
 
@@ -34,7 +38,7 @@ def get_user_input():
 def main():
     training_ride = get_user_input()
     training_ride.calculate_daily_nutrition_and_hydration()
-    print("\nCTRL+Click the link to see the guidelines used for these calculations.\n"
+    print("\n(ctrl + click) the link to see the guidelines used for these calculations.\n"
           "https://github.com/TommyJu/training-calculator/blob/main/readme.md")
     input("\nPress Enter to exit...")
 
