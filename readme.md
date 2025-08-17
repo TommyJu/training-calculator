@@ -1,55 +1,48 @@
 # Purpose
 This program is for endurance athletes who would like to calculate their daily nutrition and hydration goals based on body weight and the type of training.
 
-# Running the program
-1. Navigate to the /nutrition-calc directory in your terminal
-2. Run the program with "python main.py"
-
-OR
-
-1. Run main.exe
-
 # Nutrition and hydration recommendations (source: ChatGPT)
 ## 🚴 Daily Nutrition & Electrolytes
-### Carbohydrates
+### 🥗 Daily (Off-Bike) Nutrition
 
-Rest / light training: 3–5 g/kg
+These are the baseline intakes you aim for throughout the day to stay fueled and recovered:
 
-Moderate training (1–2 h endurance, tempo): 5–7 g/kg
+#### Carbs (g/kg):
 
-Heavy / high-intensity (2–4 h, intervals, racing): 7–10 g/kg
+Rest: 3–5
 
-### Protein
+Moderate training: 5–7
 
-1.6–2.0 g/kg/day (spread across meals)
+Heavy training/racing: 7–10
+(includes ride fuel but also normal meals/snacks)
 
-### Fat
+#### Protein (g/kg): 1.6–2.0
+(mainly meals/snacks, not during ride unless recovery drink)
 
-~1 g/kg/day (adjust remainder of calories from fat after carb + protein)
+#### Fat (g/kg): ~1.0 (20–30% of total calories)
 
-## 🔋Electrolytes (daily targets)
-### Sodium
+### Electrolytes (baseline):
 
-Baseline: 1,500–2,300 mg
+Sodium: 30–60 mg/kg
 
-Cyclists: ~30–60 mg/kg/day (≈2,000–5,000 mg for most riders), higher in heat or double sessions
+Potassium: 50–70 mg/kg
 
-### Potassium
+Magnesium: 5–6 mg/kg
 
-~50–70 mg/kg/day (≈3,500–4,700 mg)
+Calcium: 15–19 mg/kg
 
-### Magnesium
+### 🚴 On-Bike Fueling (During Training/Race)
 
-~5–6 mg/kg/day (≈400–500 mg)
+This is in addition to daily baseline needs, and scales with ride length/intensity:
 
-### Calcium
+#### Carbs:
 
-~15 mg/kg/day (≈1,000–1,300 mg)
+<1 h: optional (just water)
 
-## 💧 Hydration
+1–2 h: 30–60 g/hr
 
-Baseline: 30–40 ml/kg/day
+2–4 h (or high intensity): 60–90 g/hr (multiple carb sources: glucose + fructose)
 
-Training: +500–1,000 ml per training hour
+#### Fluids: ~500–1,000 ml/hr (based on sweat rate & weather)
 
-Electrolyte replacement on bike: ~400–800 mg sodium/hr (based on sweat rate)
+#### Sodium: ~400–800 mg/hr (more in heat / salty sweater)

@@ -4,9 +4,9 @@ from enums import Intensity, Weather
 
 # Ask user for weight, intensity, and weather to create a TrainingRide instance
 def get_user_input():
-    weight = float(input("Enter your weight in kg: "))
-    intensity_input = input("Enter training intensity (Light, Moderate, High): ")
-    weather_input = input("Enter weather (Cold, Moderate, Hot): ")
+    weight = float(input("Type your weight in kg and press enter: "))
+    intensity_input = input("Type your training intensity (Light, Moderate, High) and press enter: ")
+    weather_input = input("Type the weather (Cold, Moderate, Hot) and press enter: ")
 
     # Convert inputs to enums
     intensity = Intensity(intensity_input.capitalize())
