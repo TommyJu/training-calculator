@@ -14,7 +14,7 @@ class TrainingRide:
         print(f"Training Intensity: {self.intensity.value}")
         print(f"Weather: {self.weather.value}")
         
-        print(f"\n🥗 Off-Bike Recommendations:")
+        print(f"\n🥗 Daily Intake Recommendations:")
         print(f"Carbohydrates: {self.weight * CARBOHYDRATE_BASELINE[self.intensity.value]} g")
         print(f"Proteins: {self.weight * PROTEIN_BASELINE[self.intensity.value]} g")
         print(f"Fats: {self.weight * FAT_BASELINE[self.intensity.value]} g")
@@ -24,7 +24,7 @@ class TrainingRide:
         print(f"Calcium: {self.weight * CALCIUM_BASELINE[self.intensity.value]} mg")
         print(f"Fluids: {self.weight * HYDRATION_BASELINE[self.intensity.value]} ml")
 
-        print(f"\n🚴 On-Bike Recommendations:")
+        print(f"\n🚴 During Training Targets:")
         print(f"Carbohydrates: {CARBOHYDRATE_DURING_RIDE[self.intensity.value]} g/hour")
         print(f"Fluids: {FLUID_INTAKE_DURING_RIDE[self.weather.value]} ml/hour")
         print(f"Sodium: {SODIUM_INTAKE_DURING_RIDE[self.weather.value]} mg/hour")
