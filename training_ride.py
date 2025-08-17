@@ -1,5 +1,5 @@
-from enums import Intensity, Weather
-from constants import *
+from training_parameters import Intensity, Weather
+from nutrition_constants import *
 
 class TrainingRide:
     def __init__(self, weight: float, intensity: Intensity, weather: Weather):
